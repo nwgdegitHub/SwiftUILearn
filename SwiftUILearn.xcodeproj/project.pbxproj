@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1BA56F2435B81A0014E8AD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1BA56E2435B81A0014E8AD /* UserData.swift */; };
+		7C1BA5712435BE410014E8AD /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C1BA5702435BE410014E8AD /* charleyrivers.jpg */; };
 		7C3886442435792D0088EA3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3886432435792D0088EA3A /* AppDelegate.swift */; };
 		7C3886462435792D0088EA3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3886452435792D0088EA3A /* SceneDelegate.swift */; };
 		7C3886482435792D0088EA3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3886472435792D0088EA3A /* ContentView.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1BA56E2435B81A0014E8AD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		7C1BA5702435BE410014E8AD /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		7C3886402435792D0088EA3A /* SwiftUILearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C3886432435792D0088EA3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C3886452435792D0088EA3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C1BA5722435D3ED0014E8AD /* SwiftUI基础 */ = {
+			isa = PBXGroup;
+			children = (
+				7C38865B24358AD40088EA3A /* LandmarkList.swift */,
+				7C3886472435792D0088EA3A /* ContentView.swift */,
+				7C38865724357D600088EA3A /* CircleImage.swift */,
+				7C388659243581670088EA3A /* MapView.swift */,
+				7C38867D24358ECC0088EA3A /* LandmarkDetail.swift */,
+				7C38867F24358F0B0088EA3A /* LandmarkRow.swift */,
+			);
+			path = "SwiftUI基础";
+			sourceTree = "<group>";
+		};
+		7C1BA5732435D4340014E8AD /* SwiftUI绘画与动画 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SwiftUI绘画与动画";
+			sourceTree = "<group>";
+		};
 		7C3886372435792D0088EA3A = {
 			isa = PBXGroup;
 			children = (
@@ -96,16 +120,12 @@
 		7C3886422435792D0088EA3A /* SwiftUILearn */ = {
 			isa = PBXGroup;
 			children = (
+				7C1BA5732435D4340014E8AD /* SwiftUI绘画与动画 */,
+				7C1BA5722435D3ED0014E8AD /* SwiftUI基础 */,
 				7C38866024358E590088EA3A /* Resources */,
 				7C38865F24358E230088EA3A /* Models */,
 				7C3886432435792D0088EA3A /* AppDelegate.swift */,
 				7C3886452435792D0088EA3A /* SceneDelegate.swift */,
-				7C38865B24358AD40088EA3A /* LandmarkList.swift */,
-				7C3886472435792D0088EA3A /* ContentView.swift */,
-				7C38865724357D600088EA3A /* CircleImage.swift */,
-				7C388659243581670088EA3A /* MapView.swift */,
-				7C38867D24358ECC0088EA3A /* LandmarkDetail.swift */,
-				7C38867F24358F0B0088EA3A /* LandmarkRow.swift */,
 				7C3886492435792F0088EA3A /* Assets.xcassets */,
 				7C38864E2435792F0088EA3A /* LaunchScreen.storyboard */,
 				7C3886512435792F0088EA3A /* Info.plist */,
@@ -127,6 +147,7 @@
 			children = (
 				7C38868124358FDF0088EA3A /* Data.swift */,
 				7C38865D24358B270088EA3A /* Landmark.swift */,
+				7C1BA56E2435B81A0014E8AD /* UserData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -134,6 +155,7 @@
 		7C38866024358E590088EA3A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7C1BA5702435BE410014E8AD /* charleyrivers.jpg */,
 				7C38866124358E590088EA3A /* turtlerock.jpg */,
 				7C38866224358E590088EA3A /* silversalmoncreek.jpg */,
 				7C38866324358E590088EA3A /* icybay.jpg */,
@@ -216,6 +238,7 @@
 				7C3886502435792F0088EA3A /* LaunchScreen.storyboard in Resources */,
 				7C38867424358E590088EA3A /* umbagog.jpg in Resources */,
 				7C38867824358E590088EA3A /* stmarylake.jpg in Resources */,
+				7C1BA5712435BE410014E8AD /* charleyrivers.jpg in Resources */,
 				7C38867624358E590088EA3A /* chincoteague.jpg in Resources */,
 				7C38864D2435792F0088EA3A /* Preview Assets.xcassets in Resources */,
 				7C38867024358E590088EA3A /* icybay.jpg in Resources */,
@@ -240,6 +263,7 @@
 				7C3886442435792D0088EA3A /* AppDelegate.swift in Sources */,
 				7C38865C24358AD40088EA3A /* LandmarkList.swift in Sources */,
 				7C38865824357D600088EA3A /* CircleImage.swift in Sources */,
+				7C1BA56F2435B81A0014E8AD /* UserData.swift in Sources */,
 				7C38867E24358ECC0088EA3A /* LandmarkDetail.swift in Sources */,
 				7C38865A243581670088EA3A /* MapView.swift in Sources */,
 				7C3886462435792D0088EA3A /* SceneDelegate.swift in Sources */,
